@@ -2,7 +2,6 @@
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-beginner-reader.ss" "lang")((modname szeto-z-hw3) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #t)))
 ;Zachary Szeto zdszeto
-;Ian Kane ibkane
 
 ;Problem 1
 (define-struct merchandise (name kind autographed? quantity price))
