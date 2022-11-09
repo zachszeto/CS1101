@@ -2,7 +2,6 @@
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-advanced-reader.ss" "lang")((modname szeto-z-hw6) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #t)))
 ;zdszeto Zachary Szeto
-;ibkane Ian Kane
 
 ; 1.
 (define-struct message (username text read?))
