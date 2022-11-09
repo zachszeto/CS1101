@@ -2,7 +2,6 @@
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-beginner-abbr-reader.ss" "lang")((modname szeto-z-hw4) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
 ;Zachary Szeto zdszeto
-;Ian Kane ibkane
 
 ;Problem 1a
 (define-struct projectnode (project-id title advisor students left right))
